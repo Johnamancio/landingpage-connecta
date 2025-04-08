@@ -61,7 +61,7 @@ cp .env.example .env
 4. **Configure o `.env` com os dados do seu banco de dados**
 
 ```env
-APP_NAME=Connecta
+APP_NAME=Laravel
 APP_URL=http://localhost
 
 DB_CONNECTION=mysql
