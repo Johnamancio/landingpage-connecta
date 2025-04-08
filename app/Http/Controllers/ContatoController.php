@@ -7,10 +7,6 @@ use Illuminate\Http\Request;
 class ContatoController extends Controller
 {
     public function enviarEmail(Request $request){
-        return response()->json([
-            'nome'=> $request->nome,
-            'email'=>$request->email,
-            'mensagem'=>$request->mensagem,
-        ]);
+        return back()->with('status', 'Mensagem enviada com sucesso!');
     }
 }

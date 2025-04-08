@@ -12,8 +12,8 @@
 
 @section('title', 'Minha Landing Page') <!-- Define o título da página -->
 
-    @section('content') 
-    
+    @section('content')
+
     @include('partials.sobre') <!-- Seção sobre nós -->
     @include('partials.servicos') <!-- Seção sobre Serviços --->
     @include('partials.agendamento') <!-- Seção sobre agendamento --->
@@ -22,6 +22,8 @@
 
 @endsection
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
