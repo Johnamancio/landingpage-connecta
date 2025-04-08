@@ -4,7 +4,6 @@
     <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
 
-            <!-- Slide 1 -->
             <div class="carousel-item active">
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
                     <div class="bg-white text-dark rounded p-3 shadow" style="width: 300px;">
@@ -22,7 +21,6 @@
                 </div>
             </div>
 
-            <!-- Slide 2 (adicione mais depoimentos conforme necessário) -->
             <div class="carousel-item">
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
                     <div class="bg-white text-dark rounded p-3 shadow" style="width: 300px;">
@@ -42,7 +40,6 @@
 
         </div>
 
-        <!-- Navegação -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
