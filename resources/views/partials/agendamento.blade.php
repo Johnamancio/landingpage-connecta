@@ -1,4 +1,4 @@
-<section id="agendamento">
+<section id="agendamento" class="section-sombreado">
     <div class="container">
         <div class="texto-agendamento">
             <h2>

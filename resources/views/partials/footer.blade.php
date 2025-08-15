@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer"class="section-sombreado">
     <div class="container">
         <div class="footer-logo">
             <img src="{{ asset('images/logo.png') }}" alt="Logo">

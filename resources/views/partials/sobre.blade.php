@@ -1,4 +1,4 @@
-<section id="sobre">
+<section id="sobre" class="section-sombreado">
     <div class="container">
         <div class="textos">
         <h2 class="titulo-sobre">Dra Roselita Cardoso</h2>

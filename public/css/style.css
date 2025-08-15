@@ -14,6 +14,11 @@ body {
     padding-top: 80px;
 }
 
+.section-sombreado {
+    box-shadow: 0 8px 24px -8px rgba(40, 40, 40, 0.10);
+    background: #fff;
+}
+
 /* NAVEGAÇÃO FIXA */
 .navbar {
     position: fixed;
@@ -115,6 +120,8 @@ nav ul li a:hover {
     position: relative;
     z-index: 2;
 }
+
+
 
 .textos {
     display: flex;

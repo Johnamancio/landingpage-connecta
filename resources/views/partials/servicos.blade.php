@@ -1,4 +1,4 @@
-<section id="servicos">
+<section id="servicos" class="section-sombreado">
     <div class="container-servicos">
         <h2 class="titulo-servicos">Nossos Serviços</h2>
 
