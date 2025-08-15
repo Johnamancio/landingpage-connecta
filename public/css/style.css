@@ -6,20 +6,9 @@
 }
 
 body {
-    background: linear-gradient(
-        to bottom,
-        #e6f2ff,
-        #99ccff,
-        #4da6ff,
-        #1a75ff,
-        #004080,
-        #001a33,
-        #000c1a
-    );
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    color: #232323;
     scroll-behavior: smooth;
     overflow-x: hidden;
     padding-top: 80px;
@@ -30,13 +19,14 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #003f7f;
-    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(40, 40, 40, 0.07);
+    padding: 12px 40px;
+    border-bottom: 1px solid #ececec;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
@@ -52,24 +42,26 @@ nav ul {
 }
 
 nav ul li a {
-    color: #f4f4f4;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 10px 15px;
-    transition: all 0.3s ease-in-out;
+    color: #232323;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 18px;
+    border-radius: 0;
+    transition: color 0.2s;
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+    color: #2e7d4f;
+    background: none;
+    border-bottom: 2px solid #2e7d4f;
 }
 
 /* BOTÃO HAMBURGUER */
 .menu-toggle {
     display: none;
     font-size: 28px;
-    color: #f4f4f4;
+    color: #232323;
     cursor: pointer;
 }
 
@@ -86,7 +78,7 @@ nav ul li a:hover {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #003f7f;
+        background-color: #4e6e4a;
         padding: 10px 0;
         text-align: center;
     }
@@ -138,30 +130,34 @@ nav ul li a:hover {
     padding-bottom: 7px;
     font-size: 42px;
     font-weight: bold;
-    color: #ffffff;
+    color: #232323;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    letter-spacing: -1px;
 }
 
 .descricao-sobre {
-    color: #e0f0ff;
-    font-size: 25px;
-    font-weight: bold;
+    color: #555;
+    font-size: 22px;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
+/* Botão principal */
 .botao input {
-    background-color: #ffffff;
-    color: #0052cc;
+    background-color: #2e7d4f;
+    color: #fff;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    transition: background 0.2s;
     padding: 12px 20px;
     font-size: 16px;
-    border: none;
     cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
 }
 
 .botao input:hover {
-    background-color: #1f1f1f;
-    color: #fff;
+    background-color: #205c37;
 }
 
 .imagem-sobre {
@@ -217,7 +213,8 @@ nav ul li a:hover {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 30px;
-    color: #ffffff;
+    color: #232323;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
 }
 
 .grid-servicos {
@@ -250,12 +247,13 @@ nav ul li a:hover {
 .servico h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #007bff;
+    color: #2e7d4f;
+    font-weight: 600;
 }
 
 .servico p {
     font-size: 16px;
-    color: #333;
+    color: #444;
 }
 
 /* AGENDAMENTO */
@@ -274,7 +272,7 @@ nav ul li a:hover {
 
 .texto-agendamento h2 {
     font-size: 24px;
-    color: #f4f4f4;
+    color: #4e6e4a;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -282,7 +280,7 @@ nav ul li a:hover {
 }
 
 .texto-agendamento input[type="submit"] {
-    background-color: #25d366;
+    background-color: #2e7d4f;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -293,8 +291,8 @@ nav ul li a:hover {
 }
 
 .texto-agendamento input[type="submit"]:hover {
-    background-color: #1ebe5d;
-    color: #1f1f1f;
+    background-color: #205c37;
+    color: #fff;
 }
 
 /* DEPOIMENTOS */
@@ -310,6 +308,7 @@ nav ul li a:hover {
     margin-bottom: 2rem;
     font-weight: bold;
     text-align: center;
+    color: #4e6e4a;
 }
 
 .depoimentos-container {
@@ -354,7 +353,7 @@ nav ul li a:hover {
 
 .titulo-contato {
     font-size: 28px;
-    color: #ffffff;
+    color: #4e6e4a;
     margin-bottom: 30px;
 }
 
@@ -387,24 +386,27 @@ form {
 }
 
 .botao-enviar {
-    background-color: #ff6b6b;
-    color: white;
+    background-color: #2e7d4f;
+    color: #fff;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    transition: background 0.2s;
     padding: 12px 20px;
     font-size: 16px;
-    border: none;
     cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
     width: 100%;
 }
 
 .botao-enviar:hover {
-    background-color: #1f1f1f;
+    background-color: #205c37;
 }
 
 /* FOOTER */
 #footer {
-    color: white;
+    background: #232323;
+    color: #fff;
     padding: 30px 0;
     text-align: center;
 }
@@ -423,19 +425,19 @@ form {
 }
 
 .footer-links ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: 16px;
     transition: 0.3s;
 }
 
 .footer-links ul li a:hover {
-    color: #ff6b6b;
+    color: #2e7d4f;
 }
 
 .footer-social a {
     display: inline-block;
-    color: white;
+    color: #fff;
     margin: 0 10px;
     text-decoration: none;
     font-size: 18px;
@@ -443,11 +445,12 @@ form {
 }
 
 .footer-social a:hover {
-    color: #ff6b6b;
+    color: #2e7d4f;
 }
 
 .footer-bottom {
-    background-color: #111;
+    background: #181818;
+    color: #bbb;
     padding: 10px 0;
     margin-top: 20px;
     font-size: 14px;
@@ -479,7 +482,7 @@ textarea {
 
 #button_form {
     padding: 0.8rem;
-    background-color: #2980ff;
+    background-color: #7fa87a;
     color: white;
     border: none;
     border-radius: 5px;
@@ -489,7 +492,7 @@ textarea {
 }
 
 #button_form:hover {
-    background-color: #1c60c7;
+    background-color: #4e6e4a;
 }
 
 .alert-success {
