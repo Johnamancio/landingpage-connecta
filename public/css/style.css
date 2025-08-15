@@ -26,7 +26,7 @@ body {
 }
 
 /* NAVEGAÇÃO FIXA */
-nav {
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
